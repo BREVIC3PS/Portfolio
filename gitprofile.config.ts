@@ -102,19 +102,19 @@ const CONFIG = {
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
+      company: 'FESCO',
+      position: 'Software Engineer',
       from: 'July 2019',
       to: 'August 2021',
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com',
+    // },
   ],
   educations: [
     {
