@@ -25,17 +25,17 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['BREVIC3PS/UE5_Action_Slash', 'BREVIC3PS/Render_Project','EVAN-REN/TrojanMap-Menu','BREVIC3PS/Raider' ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['BREVIC3PS/UE5_Action_Slash', 'BREVIC3PS/Render_Project','EVAN-REN/TrojanMap-Menu','BREVIC3PS/Raider', ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Ideas',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Frustum Culling',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Frustum Culling feature on PrimeEngine',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
