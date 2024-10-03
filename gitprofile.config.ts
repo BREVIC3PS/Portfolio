@@ -25,11 +25,14 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['BREVIC3PS/UE5_Action_Slash', 'BREVIC3PS/Render_Project','EVAN-REN/TrojanMap-Menu','BREVIC3PS/Raider', ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['BREVIC3PS/UE5_Action_Slash', 'BREVIC3PS/Render_Project',
+          'EVAN-REN/TrojanMap-Menu','BREVIC3PS/Raider', 
+          'BREVIC3PS/Jet','EVAN-REN/EE542HW4',
+            ''], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'Ideas',
+      header: 'Ideas & Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -37,46 +40,70 @@ const CONFIG = {
           description:
             'Frustum Culling feature on PrimeEngine',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://github.com/BREVIC3PS/Portfolio/GIFs/FrustumCulling.gif',
+          // link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Aiming Objects',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Moving Objects on PrimeEngine',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://github.com/BREVIC3PS/Portfolio/GIFs/AimingObjects.gif',
+          // link: 'https://example.com',
+        },
+        {
+          title: 'Floating Skateboard',
+          description:
+            'A physical floating skateboard in UE5, WIP',
+          imageUrl:
+            'https://gd-hbimg.huaban.com/062b7dbc50ca3953b84bfddaa8c7d3fa0d310f5e4d0ec-cp9x66_fw658',
+          // link: 'https://example.com',
+        },
+        {
+          title: 'UDP-Based Reliable File Transfer',
+          description:
+            'A UDP-Based reliable file transfer software, aiming to act like scp but better performance',
+          // imageUrl:
+          //   'https://gd-hbimg.huaban.com/062b7dbc50ca3953b84bfddaa8c7d3fa0d310f5e4d0ec-cp9x66_fw658',
+          link: 'https://www.youtube.com/watch?v=UfwsEprvFnA',
+        },
+        {
+          title: 'TCP Modification',
+          description:
+            'Some adjustments were made to the source TCP protocol files in the Linux 5.4 kernel to enhance its performance in high-loss networks',
+          // imageUrl:
+          //   'https://gd-hbimg.huaban.com/062b7dbc50ca3953b84bfddaa8c7d3fa0d310f5e4d0ec-cp9x66_fw658',
+          link: 'https://youtu.be/UC5skvMYSiA',
         },
       ],
     },
   },
   seo: {
     title: 'Portfolio of Ke Wang',
-    description: '',
+    description: 'Gamer/Programmer/Student/Meatlover',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'ke-wang-0a9917289',
+    // twitter: 'arif_szn',
+    // mastodon: 'arifszn@mastodon.social',
+    // researchGate: '',
+    // facebook: '',
+    // instagram: '',
+    // reddit: '',
+    // threads: '',
+    // youtube: '', // example: 'pewdiepie'
+    // udemy: '',
+    // dribbble: '',
+    // behance: '',
+    // medium: 'arifszn',
+    // dev: 'arifszn',
+    // stackoverflow: '', // example: '1/jeff-atwood'
+    // skype: '',
+    // telegram: '',
+    // website: 'https://www.arifszn.com',
+    phone: '+12135239484/+8615847677309',
+    email: 'kwang655@usc.edu',
   },
   resume: {
     fileUrl:
@@ -95,17 +122,23 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Tencent',
+      position: 'Game Client Development Intern, PUBG Mobile Team',
+      from: 'May 2024',
+      to: 'August 2024',
+      companyLink: 'https://www.lightspeed-studios.com/',
+    },
+    {
+      company: 'USC WiDeS Lab',
+      position: 'Student Worker, Ray Tracer CUDA Implementation',
+      from: 'Feb 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
     },
     {
       company: 'FESCO',
       position: 'Software Engineer',
-      from: 'July 2019',
-      to: 'August 2021',
+      from: 'April 2023',
+      to: 'August 2023',
     },
   ],
   certifications: [
@@ -118,16 +151,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Southern California',
+      degree: 'Master of Science in Electrical Engineering',
+      from: '2023',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'XiDian University',
+      degree: 'Bachelor of Engineering in Space Information and Digital Technology',
+      from: '2018',
+      to: '2022',
     },
   ],
   publications: [
@@ -165,11 +198,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'Lemonade',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
