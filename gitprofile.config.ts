@@ -115,6 +115,7 @@ const CONFIG = {
     'CUDA',
     'Unreal Engine',
     'Multi-thread programming',
+    'Network Programming',
     'MySQL',
     'Git',
     'Linux',
