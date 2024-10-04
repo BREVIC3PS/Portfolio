@@ -40,16 +40,16 @@ const CONFIG = {
           description:
             'Frustum Culling feature on PrimeEngine',
           imageUrl:
-            'https://github.com/BREVIC3PS/Portfolio/GIFs/FrustumCulling.gif',
-          // link: 'https://example.com',
+            'https://github.com/BREVIC3PS/Portfolio/GIFs/Culling.png',
+          link: 'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/FrustumCulling.gif',
         },
         {
           title: 'Aiming Objects',
           description:
             'Moving Objects on PrimeEngine',
           imageUrl:
-            'https://github.com/BREVIC3PS/Portfolio/GIFs/AimingObjects.gif',
-          // link: 'https://example.com',
+            'https://github.com/BREVIC3PS/Portfolio/GIFs/Aiming.png',
+          link: 'https://github.com/BREVIC3PS/Portfolio/GIFs/AimingObjects.gif',
         },
         {
           title: 'Floating Skateboard',
