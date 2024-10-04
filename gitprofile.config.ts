@@ -48,8 +48,8 @@ const CONFIG = {
           description:
             'Moving Objects on PrimeEngine',
           imageUrl:
-            'https://github.com/BREVIC3PS/Portfolio/GIFs/AimingObjects.gif?raw=true',
-          link: 'https://github.com/BREVIC3PS/Portfolio/GIFs/AimingObjects.gif',
+            'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/AimingObjects.gif?raw=true',
+          link: 'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/AimingObjects.gif',
         },
         {
           title: 'Floating Skateboard',
