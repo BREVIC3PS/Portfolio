@@ -48,7 +48,7 @@ const CONFIG = {
           description:
             'Moving Objects on PrimeEngine',
           imageUrl:
-            'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/Aiming.png?raw=true',
+            'https://github.com/BREVIC3PS/Portfolio/GIFs/AimingObjects.gif?raw=true',
           link: 'https://github.com/BREVIC3PS/Portfolio/GIFs/AimingObjects.gif',
         },
         {
@@ -81,7 +81,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Ke Wang',
     description: 'Gamer/Programmer/Student/Meatlover',
-    imageURL: '',
+    imageURL: 'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/P.png?raw=true',
   },
   social: {
     linkedin: 'ke-wang-0a9917289',
