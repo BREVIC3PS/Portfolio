@@ -107,7 +107,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/Resume-KE_WANG-Game_New.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/Resume-KE_WANG-Game_New.pdf?raw=true', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
