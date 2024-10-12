@@ -52,6 +52,14 @@ const CONFIG = {
           link: 'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/AimingObjects.gif',
         },
         {
+          title: 'Physics',
+          description:
+            'Physics collision and gravity on PrimeEngine',
+          imageUrl:
+            'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/PhysicsAndCollision.gif?raw=true',
+          link: 'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/PhysicsAndCollision.gif',
+        },
+        {
           title: 'Floating Skateboard',
           description:
             'A physical floating skateboard in UE5, WIP',
