@@ -115,7 +115,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/Resume-KE_WANG-Game_New.pdf?raw=true', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
