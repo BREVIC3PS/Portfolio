@@ -36,6 +36,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Physic-based Coin Pusher',
+          description:
+            'This demonstration showcases a coin pusher simulation on a customized physics engine that I developed from scratch, integrated into the PrimeEngine framework.',
+          imageUrl:
+            'https://github.com/BREVIC3PS/Portfolio/blob/main/GIFs/CoinPusher.gif?raw=true',
+          link: 'https://www.bilibili.com/video/BV1KwB5YpETv/?vd_source=c1f57a90367f7b050704410001c7d2a5',
+        },
+        {
           title: 'Frustum Culling',
           description:
             'Frustum Culling feature on PrimeEngine',
